@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+span {
+    width: 150px;
+    display: block;
+    float: left;
+}
+button {
+    width: 100px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="/" method="post" name="contact">
+        <label for="text"><span>Name</span>
+        <input type="text">
+        </label>
+        <label for="email"><span>E-mail</span>
+        <input type="email">
+        </label>
+        <div>
+            <label for="password"><span>Password</span>
+            <input type="password">
+            </label>
+        </div>
+        <div>
+            <label for="password"><span>Confirm Password</span>
+            <input type="password">
+            </label>
+        </div>
+        <label><span>Male</span>
+        <input name="gender" type="radio" value="male">
+        </label>
+        <label><span>Female</span>
+        <input name="gender" type="radio" value="female">
+        </label>
+        <label for="number"><span>Age</span>
+        <input type="number">
+        </label>
+        <label for="slctr"><span>Course</span>
+        <select name="slctr">
+            <option>--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        </label>
+        <label><span>Full Address</span>
+        <textarea name="txt" cols="20" rows="3" placeholder="type something"></textarea>
+        </label>
+        <label><span>Data processing agreement</span>
+        <input type="checkbox">
+        </label>
+        <button type="reset">Reset</button>
+        <button type="submit">Confirm</button>
+    </form> 
+</body>
+</html>
