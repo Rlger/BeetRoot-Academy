@@ -1,0 +1,188 @@
+.container {
+  width: 100%;
+  max-width: 785px;
+}
+
+header {
+  width: 100%;
+  max-width: 1200px;
+  padding: 13px 120px;
+  margin: auto auto 10px auto;
+}
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header div div {
+  gap: 50px;
+}
+header div a {
+  color: #000000;
+  text-align: center;
+  font-family: Tourney;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.88px;
+  text-decoration: none;
+}
+header div nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+header div nav ul li {
+  color: #000;
+  font-family: Staatliches;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  text-decoration: none;
+}
+header div nav ul li a {
+  color: #000;
+  font-family: Staatliches;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  text-decoration: none;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  margin: 40px auto 0 auto;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+section h2 {
+  color: #000;
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+section h2 sup small {
+  color: #000;
+  -webkit-font-feature-settings: "sups" on;
+          font-feature-settings: "sups" on;
+  font-family: Farro;
+  font-size: 45%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+section p {
+  color: #000;
+  font-family: PT Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: start;
+}
+
+i {
+  font-style: italic;
+}
+
+span {
+  background-color: #DADADA;
+}
+
+b {
+  font-weight: 700;
+}
+
+.chapter4 {
+  margin-bottom: 90px;
+}
+
+.main_hr {
+  width: 100px;
+  height: 8px;
+  background: #000;
+  position: relative;
+  right: 340px;
+  top: 17px;
+}
+
+.gear {
+  position: fixed;
+  top: 140px;
+  right: 0;
+}
+
+aside {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 385px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  left: 342px;
+  top: 100px;
+}
+aside nav ul li {
+  margin-top: 40px;
+}
+aside nav ul li a {
+  color: #000;
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
