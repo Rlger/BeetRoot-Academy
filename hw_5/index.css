@@ -3,28 +3,19 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.container header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+body .header {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 17px auto;
 }
-.container header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .header nav ul {
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   gap: 20px;
 }
-.container header nav ul li a {
+body .header nav ul li a {
   text-decoration: none;
   color: #2F281E;
   font-family: Montserrat;
@@ -33,23 +24,17 @@
   font-weight: 400;
   line-height: 28px;
 }
-.container header nav ul li a:hover {
-  -webkit-transition: 1s;
+body .header nav ul li a:hover {
   transition: 1s;
   color: var(--orange, #F90);
 }
-.container header div a {
+body .header div a {
   width: 110px;
   height: 46px;
   padding: 13px 25px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   border-radius: 4px;
   background: #F90;
   color: #FFF;
@@ -61,20 +46,14 @@
   text-decoration: none;
   margin: 0 0 0 35px;
 }
-.container header div a:hover {
-  -webkit-transition: 1s;
+body .header div a:hover {
   transition: 1s;
   width: 110px;
   height: 46px;
   padding: 13px 25px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   color: #2F281E;
   font-family: Montserrat;
   font-size: 16px;
@@ -85,26 +64,19 @@
   border: 1px solid #BCD0E5;
   background: none;
 }
-.container .frst_scrn {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .frst_scrn {
   display: flex;
   width: 1200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 87px auto 100px;
 }
-.container .frst_scrn div {
+body .frst_scrn div {
   width: 500px;
   height: 301px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
-.container .frst_scrn div h1 {
+body .frst_scrn div h1 {
   width: 500px;
   height: 110px;
   color: #2F281E;
@@ -115,7 +87,7 @@
   line-height: 54px;
   margin: 0 auto 30px;
 }
-.container .frst_scrn div p {
+body .frst_scrn div p {
   width: 500px;
   height: 91px;
   color: #544837;
@@ -126,18 +98,13 @@
   line-height: 28px;
   margin: 30px auto 20px;
 }
-.container .frst_scrn div a {
+body .frst_scrn div a {
   width: 180px;
   height: 50px;
   padding: 13px 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   border-radius: 4px;
   background: #F90;
   color: #FFF;
@@ -149,8 +116,7 @@
   line-height: normal;
   text-decoration: none;
 }
-.container .frst_scrn div a:hover {
-  -webkit-transition: 1s;
+body .frst_scrn div a:hover {
   transition: 1s;
   color: #2F281E;
   text-align: center;
@@ -163,52 +129,37 @@
   border: 1px solid #BCD0E5;
   background: none;
 }
-.container .features {
+body .features {
   height: 510px;
   background-image: url("img/bg.png");
   background-position: bottom;
   background-repeat: no-repeat;
 }
-.container .features h2 {
+body .features h2 {
   color: #2F281E;
   text-align: center;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.container .features .items {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .features .items {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 50px auto 70px;
 }
-.container .features .items .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .features .items .item {
   display: flex;
   width: 270px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 30px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
-.container .features .items .item h3 {
+body .features .items .item h3 {
   color: #2F281E;
   font-family: Montserrat;
   font-size: 22px;
@@ -216,30 +167,22 @@
   font-weight: 600;
   line-height: normal;
 }
-.container .features .items .item p {
+body .features .items .item p {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
 }
-.container .features a {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .features a {
   display: flex;
   width: 180px;
   height: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   border-radius: 4px;
   background: #F90;
   color: #FFF;
@@ -252,8 +195,7 @@
   text-decoration: none;
   margin: auto;
 }
-.container .features a:hover {
-  -webkit-transition: 1s;
+body .features a:hover {
   transition: 1s;
   color: #2F281E;
   text-align: center;
@@ -266,36 +208,28 @@
   border: 1px solid #BCD0E5;
   background: none;
 }
-.container .design_professionals {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .design_professionals {
   display: flex;
   width: 1200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 100px auto;
 }
-.container .design_professionals .dsgn {
+body .design_professionals .dsgn {
   margin-bottom: 40px;
 }
-.container .design_professionals p {
+body .design_professionals p {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
 }
-.container .design_professionals .sidep {
+body .design_professionals .sidep {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -303,10 +237,9 @@
   line-height: 26px;
   margin-bottom: 30px;
 }
-.container .design_professionals h2 {
+body .design_professionals h2 {
   color: #2F281E;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
@@ -314,10 +247,9 @@
   line-height: normal;
   margin-bottom: 20px;
 }
-.container .design_professionals h3 {
+body .design_professionals h3 {
   color: #2F281E;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -325,22 +257,15 @@
   line-height: 26px;
   margin-bottom: 12px;
 }
-.container .product_manager {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .product_manager {
   display: flex;
   width: 1200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-.container .product_manager h2 {
+body .product_manager h2 {
   color: #2F281E;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
@@ -348,65 +273,52 @@
   line-height: normal;
   margin-bottom: 20px;
 }
-.container .product_manager .icons {
+body .product_manager .icons {
   margin-top: 40px;
 }
-.container .product_manager p {
+body .product_manager p {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
 }
-.container .product_manager .icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .product_manager .icon {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-.container .product_manager .icon label {
+body .product_manager .icon label {
   margin-left: 30px;
   font-family: Montserrat;
   line-height: 26px;
 }
-.container .product_manager .icocentr {
+body .product_manager .icocentr {
   margin: 30px auto;
 }
-.container .marketers {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body .marketers {
   display: flex;
   width: 1200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 100px auto;
 }
-.container .marketers .dsgn {
+body .marketers .dsgn {
   margin-bottom: 40px;
 }
-.container .marketers p {
+body .marketers p {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
 }
-.container .marketers .sidep {
+body .marketers .sidep {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -414,10 +326,9 @@
   line-height: 26px;
   margin-bottom: 30px;
 }
-.container .marketers h2 {
+body .marketers h2 {
   color: #2F281E;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
@@ -425,10 +336,9 @@
   line-height: normal;
   margin-bottom: 20px;
 }
-.container .marketers h3 {
+body .marketers h3 {
   color: #2F281E;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -436,16 +346,12 @@
   line-height: 26px;
   margin-bottom: 12px;
 }
-.container footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body footer {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 70px 0;
 }
-.container footer nav h2 {
+body footer nav h2 {
   color: #2F281E;
   font-family: Gotham;
   font-size: 20px;
@@ -454,10 +360,9 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
-.container footer nav a {
+body footer nav a {
   color: #544837;
-  -webkit-font-feature-settings: "clig" off, "liga" off;
-          font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -465,12 +370,11 @@
   line-height: 41px;
   text-decoration: none;
 }
-.container footer nav a:hover {
-  -webkit-transition: 1s;
+body footer nav a:hover {
   transition: 1s;
   color: var(--orange, #F90);
 }
-.container footer form h2 {
+body footer form h2 {
   color: #2F281E;
   font-family: Gotham;
   font-size: 20px;
@@ -478,7 +382,7 @@
   font-weight: 700;
   line-height: 30px;
 }
-.container footer form input {
+body footer form input {
   border-radius: 4px;
   border: 1px solid #BCD0E5;
   color: #BCD0E5;
@@ -487,31 +391,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 340px;
   height: 50px;
   padding: 0 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
   margin: 25px 0;
 }
-.container footer form button {
-  display: -webkit-box;
-  display: -ms-flexbox;
+body footer form button {
   display: flex;
   width: 180px;
   height: 50px;
   padding: 13px 35px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   background: #F90;
   color: #FFF;
@@ -523,8 +417,7 @@
   line-height: normal;
   border: none;
 }
-.container footer form button:hover {
-  -webkit-transition: 1s;
+body footer form button:hover {
   transition: 1s;
   color: #2F281E;
   text-align: center;
@@ -537,3 +430,5 @@
   border: 1px solid #BCD0E5;
   background: none;
 }
+
+/*# sourceMappingURL=index.css.map */
